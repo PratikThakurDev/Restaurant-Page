@@ -121,3 +121,27 @@ button:hover{
     to{opacity: 1;transform: translateY(0);}
 
 }
+
+.contact-card{
+    background-color: rgba(255,255,255,0.95);
+    margin: 100px auto;
+    padding: 30px 40px;
+    border-radius: 14px;
+    width: 90%;
+    max-width: 300px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+    animation:fadeIn 0.5s ease;
+}
+
+.contact-card h1{
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+    color: #b23b14;
+}
+
+.contact-card p{
+    font-size: 1.1rem;
+    color: #333;
+    margin: 8px 0;
+}
