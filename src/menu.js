@@ -13,11 +13,12 @@ function loadMenu(){
 
 const RenderMenu = () =>{
     const content = document.querySelector("#content") ;
+    content.innerHTML='';
 
     const Background = ()=>{
         content.style.backgroundImage = `url(${menuBg})` ;
         content.style.backgroundRepeat = 'no-repeat';
-        content.style.backgroundSize = 'contain';
+        content.style.backgroundSize = 'cover';
         content.style.backgroundPosition = 'center ';
         content.style.height = '1000px';   
     }
